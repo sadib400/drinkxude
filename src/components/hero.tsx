@@ -57,7 +57,7 @@ export function Hero() {
                 className="absolute inset-0"
               >
                 <picture className="absolute inset-0">
-                  <source media="(min-width: 768px)" srcSet={slide.desktop} />
+                  <source media="(min-width: 1024px)" srcSet={slide.desktop} />
                   <img
                     src={slide.mobile}
                     alt={slide.alt}
