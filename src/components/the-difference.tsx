@@ -11,7 +11,7 @@ const stories = [
     title: "We don't make energy drinks just for energy drink fans.",
     description: (
       <>
-        We make them for those who never felt the energy drinks was meant for them.
+        We make them for those who never felt that energy drinks was meant for them.
         <br />
         <br />
         By rethinking everything from ingredients and flavour to the experience itself, we&apos;re building a new generation of caffeinated beverages that&apos;s smoother, fruitier and made for everyday life.

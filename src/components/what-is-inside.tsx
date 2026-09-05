@@ -25,6 +25,14 @@ const leftIngredients = [
     description: "Known for blood formation, B12 helps in energy release from foods.",
   },
   {
+    icon: Sun,
+    title: "Vitamin D",
+    description: "It is known for helping body to absorb calcium which is a key component for bones. It is also known for reducing fatigue.",
+  },
+];
+
+const rightIngredients = [
+  {
     icon: Activity,
     title: "Vitamin B",
     description: "B-Vitamins help regulate cell health as well as metabolism. They also help support your adrenal glands to help you recover from fatigue.",
@@ -33,19 +41,6 @@ const leftIngredients = [
     icon: Shield,
     title: "Magnesium",
     description: "Known to boost energy production and helps to beat fatigue.",
-  },
-];
-
-const rightIngredients = [
-  {
-    icon: Sun,
-    title: "Vitamin D",
-    description: "It is known for helping body to absorb calcium which is a key component for bones. It is also known for reducing fatigue.",
-  },
-  {
-    icon: Flame,
-    title: "Garcinia Cambogia",
-    description: "Xude uses smart blend of green tea and garcinia made from tropical fruit known as Malabar Tamarind, which contains antioxidants like hydroxycitric acid (HCA) which boosts metabolism and support fat burn.",
   },
   {
     icon: Feather,
@@ -88,7 +83,7 @@ export function WhatIsInside() {
 
         {/* Video + Text list in 3 columns for Desktop */}
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
-          
+
           {/* Left Column */}
           <div className="flex-1 flex flex-col gap-4 lg:gap-6 justify-start order-2 lg:order-1">
             {leftIngredients.map((item, idx) => {
